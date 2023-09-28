@@ -1,0 +1,38 @@
+.nav{
+background-color: black;
+position: sticky;
+top: 0;
+z-index: 100;
+}
+
+.navbar__container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 70px;
+padding: 0 6rem;
+/* position: sticky; */
+}
+
+.navbar__logo__img{
+    max-width: 200px;
+}
+
+a{
+color: white;
+/* position: static; */
+height: auto;
+width: auto;
+font-size: 16px;
+font-family: "Campton Light", sans-serif;
+font-weight: 500;
+line-height: 24px;
+padding: 8px;
+text-decoration: none;
+
+}
+
+a:hover {
+    color: rgb(223, 159, 113);
+    
+  }

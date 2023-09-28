@@ -1,0 +1,20 @@
+.carousel{
+background: rgb(253, 250, 246) none repeat scroll 0% 0% / auto padding-box border-box;
+background-color: rgb(253, 250, 246);
+position: static;
+min-width: 500px;
+padding: 40px;
+width: 50%;
+display: flex;
+justify-content: center;
+/* align-items: center; */
+}
+
+.carousel__container{
+    /* width: 50%; */
+    display: flex;
+text-align: center;
+justify-content: center;
+align-items: center;
+}
+

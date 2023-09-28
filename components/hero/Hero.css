@@ -1,0 +1,66 @@
+.hero{
+background-image:url("https://cdn.shopify.com/s/files/1/0559/0407/5843/files/2Q7A6845_-_low.jpg?v=1670370869");
+background-position: center;
+position: relative;
+padding: 160px 192px;
+background-position: cover;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+.hero::before{
+  content: ''; 
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5);
+  /* z-index: 0 */
+}
+
+.hero__header{
+display: flex;
+max-width: 40%;
+}
+
+.hero__header__h2{
+color: #fff;
+font-family:"made-regular", sans-serif;
+font-size:48px;
+font-weight:600;
+line-height:48px;
+word-wrap: break-word;
+position: relative;
+}
+
+.hero-btn {
+border:0.666667px solid #DF9F71;
+background: #F5D7BB;
+font-family:"made-regular";
+font-size:16px;
+font-weight:600;
+line-height:24px;
+padding:12px 48px;
+width: 100%;
+position: relative;
+cursor: pointer;
+}
+
+.hero-btn:hover{
+  /* background-color: #FFFFFF; */
+  background: transparent;
+  color: #DF9F71;
+  }
+
+.hero__header__p{
+color: rgb(255, 255, 255);
+/* position: static; */
+font-size: 16px;
+font-family: "campton-light", sans-serif;
+font-weight: 400;
+line-height: 24px;
+margin: 24px 0px;
+position: relative;
+}
