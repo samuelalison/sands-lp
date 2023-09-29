@@ -1,6 +1,6 @@
 // import Image from 'next/image'
 // import styles from './page.module.css'
-import { Compare } from '@/components/compare/compare'
+import { Compare } from '@/components/compare/Compare'
 import { Connect } from '@/components/connect/Connect'
 import { Customers } from '@/components/customers/Customers'
 import { Hero } from '@/components/hero/Hero'
