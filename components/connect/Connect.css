@@ -1,10 +1,20 @@
-/* .brand-color{
+.connect{
+   position: relative;
+   overflow: hidden;
+}
+
+.brand-color{
 background: #F8ECDE;
 position: absolute;
 width: 200vw;
 opacity: 0.5;
+height: 60vh;
+top: 50px;
 transform: skewY(-20deg);
-} */
+z-index: -1;
+/* top: -250px; */
+
+}
 
 .connect_btn {
     border:0.666667px solid #DF9F71;

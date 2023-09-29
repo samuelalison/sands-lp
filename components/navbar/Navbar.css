@@ -3,6 +3,8 @@ background-color: black;
 position: sticky;
 top: 0;
 z-index: 100;
+padding-inline-start: 10rem;
+padding-inline-end: 10rem;
 }
 
 .navbar__container{
@@ -10,7 +12,7 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 height: 70px;
-padding: 0 6rem;
+/* padding: 0 6rem; */
 /* position: sticky; */
 }
 
