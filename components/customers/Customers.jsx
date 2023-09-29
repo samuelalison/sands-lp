@@ -1,6 +1,6 @@
 "use client"
 import React, { useState } from 'react';
-import './Customers.css'
+import './Customers.css';
 import Carousel from './Carousel';
 
 const datas = [

@@ -1,0 +1,37 @@
+.faq{
+padding-top: 10rem;
+padding-inline-start: 12rem;
+padding-inline-end: 12rem;
+/* padding-bottom: 10rem; */
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.faq_left_side_h2{
+color: rgb(26, 32, 44);
+position: static;
+font-size: 36px;
+font-family: "made-regular", sans-serif;
+font-weight: 600;
+line-height: 43.2px;
+}
+
+.faq_left_side_p{
+color: rgb(26, 32, 44);
+position: static;
+font-size: 16px;
+font-family: "campton-light", sans-serif;
+font-weight: 400;
+line-height: 24px;
+margin: 40px 0px;
+}
+
+.faq_left_side{
+width: 30%;
+}
+
+.faq_right_side{
+    width: 50%;
+}
