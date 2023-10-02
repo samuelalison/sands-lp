@@ -91,7 +91,7 @@ text-overflow: ellipsis;
 .card__type_customized{
     border:0.666667px solid rgb(223, 159, 113);
     border-radius: 9999px;
-    /* text-align:center; */
+    text-align:center;
     /* margin:0px 0px 8px; */
 }
 
